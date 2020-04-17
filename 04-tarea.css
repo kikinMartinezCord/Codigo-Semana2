@@ -9,7 +9,7 @@ main{
 #div-contenedor{
     width: 500px;
     height: 500px;
-    background-image: url(./dia3/mardib.jpg);
+    background-image: url(mardib.jpg);
     border-radius: 15px;
 }
 
