@@ -1,0 +1,23 @@
+li:nth-child(3), :not(){
+    color:chocolate
+}
+
+/* Sleccionando al primer elemento de un grupo de elemntos al mismo nivel */
+p:first-child {color:crimson ;}
+p:last-child{color: blue;}
+
+/* Seleccionar todos los elemntos impares de un grupo de hermanosal mismo nivel */
+tr:nth-child(odd){
+    background-color:tan;
+}
+/* :not() => Interpretado como un excepto*/
+/* Todos los elementos hijos dentro de un UL a cualquier nivel, excepto las etiquetas */
+/* a excepto los que tengan la clase SELECCIONADO */
+/* Todos los hijos a cualquier nivel de un UL que a su vez sea hijo de un section, de todos ellos , excepto el que tiene la clase seleccionada */
+section ul :not(.SELECCIONADO){
+    color: red;
+}
+/* Todos los parrafos exceptolos que tengan la clase "grande" */
+h4:not(.letra-grande){
+    color:violet;
+}

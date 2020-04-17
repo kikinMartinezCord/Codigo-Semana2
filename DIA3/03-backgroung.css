@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 150px;
+    background-color: #fbb446;
+}
+main{
+    height: 3000px;
+}
+#section_1{
+    height: 300px;
+    background-color: #fcd59a;
+    background-image: url("mardib.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#section_2{
+    height: 300px;
+    background-image: url("textura.png");
+    /* background-repeat: ; */
+}
+
+#section_3{
+    height: 500px;
+    background-image: url("frutas.jpg");
+    background-attachment: fixed;
+}
+
+#section_3 h2{
+    padding-top: 210px;
+    text-align: center;
+    font-family: cursive;
+    color: khaki;
+    font-size: 40px;
+    height: 500px;
+    background-color:rgba(0,0,0,0.7);
+}

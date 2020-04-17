@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    margin-top: 50px auto 0px auto;
+    height: 100px;
+    width: 100px;
+    background-color: #ddd;
+}
+#div-1:hover{
+    transform: scale(1.1,0.9);
+}
+
+#div-2:hover    {
+    background-image: url(https://via.placeholder.com/100/22ff44/ff6666?text=Codigo);
+    transform: rotate(45deg);
+}
+
+#div-3{
+    transform: translate(30px, 10px);
+}
+
+#div-4:hover{
+    transform: scale(1.2,1.2) rotate(45deg);
+}
+
+

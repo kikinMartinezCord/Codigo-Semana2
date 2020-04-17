@@ -1,0 +1,41 @@
+header {
+background-color: coral;
+
+}
+span{
+    background-color: crimson;
+}
+body{
+    background-color: lightcyan;
+}
+main{
+    background-color: lightcoral;
+    height: 600px;
+    width: 50%;
+
+}
+.section1{
+background-color: darkgreen;
+color: #fcaaaa;
+width: 50%;
+}
+.section2{
+background-color: darkred;
+color: #fcaaaa;
+
+width: 50%;
+height: 100px;
+overflow: auto;
+/* overflow: hidden; hidden oculta el conteido que revalsa */
+}
+footer{
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+footer>p{
+    text-align: center;
+    background-color: #cfdf4f;
+}
