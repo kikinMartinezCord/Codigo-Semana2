@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: teal;
+    color: whitesmoke;
+    width: 600px;
+    text-align: center;
+
+}
+
+#caja-1{
+    float: left;
+    width: 140px;
+    height: 50px;
+    background-color: tomato;
+}
+    
+
+#caja-2{
+    float: left;
+    width: 140px;
+    height: 50px;
+    background-color: tomato;
+}
+
+#caja-3{
+    float: left;
+    width: 140px;
+    height: 50px;
+    background-color: tomato;
+}
+
+#caja-4{
+    
+    float: left;
+    width: 140px;
+    height: 50px;
+    background-color: tomato;
+}
+
+
+#contenedor{
+background-color: tan;
+width: 600px;
+}
+.fix{
+    clear: both;
+}

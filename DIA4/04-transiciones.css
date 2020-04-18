@@ -34,7 +34,7 @@ div {
 #div-3{
 background-image: url(http://placekitten.com/200/300);
 background-size: cover;
-transition: all 0.5 ease 1s;
+transition: all 0.5 ease 0s;
 }
 
 #div-3:hover{
